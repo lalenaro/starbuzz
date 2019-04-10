@@ -1,0 +1,42 @@
+/* CSS Document */
+body {
+	background: tan;
+	font-family:sans-serif;
+}
+
+#content {
+	width:70%;
+	margin:auto;
+	padding: 10px 20px;
+}
+.price {
+	color: darkgreen;
+}
+
+h1 {
+}	
+
+h2 {
+}
+
+p {
+	}
+#contact {
+	text-align: center;
+	padding: 40px;
+	font-size:150%;
+	
+}
+
+a:link {
+	color: saddlebrown;
+	text-decoration: none;
+}
+a:hover {
+	color:#3B7941;
+	text-decoration:underline;
+}
+a:visited {
+	color:burlywood;
+	text-decoration:none;
+}
