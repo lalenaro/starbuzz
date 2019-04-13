@@ -34,9 +34,18 @@ a:link {
 }
 a:hover {
 	color:#3B7941;
-	text-decoration:underline;
+	border-bottom: thin dashed;
 }
 a:visited {
 	color:burlywood;
 	text-decoration:none;
+}
+
+#test {
+	box-sizing: border-box;
+	width: 200px;
+	padding:10px;
+	margin:20px;
+	background-color: #C73A3C;
+	border: 10px green solid;
 }

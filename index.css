@@ -1,0 +1,51 @@
+/* CSS Document */
+
+
+body {
+	background-color:#C3B59B;
+}
+div {
+	margin: 5px;
+	padding: 0.5em;
+}
+#header {
+	height: 100px;
+	min-width: 500px;
+}
+#header, #footer {
+	background-color:#7C6E58;
+}
+#main, #order, #menu {
+	background-color:#F4ECDA; 
+	clear: both;
+}
+#order {
+	flex-grow:1;
+}
+#main{
+	flex-grow:2;
+}
+#menu {
+	flex-grow:1;
+}
+#footer {
+	color: white;
+}
+h2 {
+	
+	color:brown;
+}
+
+#logo {
+	float: left;
+}
+
+#slogan {
+	float: right;
+}
+
+#container {
+	display:flex;
+	
+	
+}
