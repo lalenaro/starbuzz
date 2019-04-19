@@ -20,13 +20,13 @@ div {
 	clear: both;
 }
 #order {
-	flex-grow:1;
+	flex:1;
 }
 #main{
-	flex-grow:2;
+	flex:2;
 }
 #menu {
-	flex-grow:1;
+	flex:1;
 }
 #footer {
 	color: white;
