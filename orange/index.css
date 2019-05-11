@@ -69,3 +69,41 @@ header {
 .myimg {
 	padding-right: 20px;
 }
+
+.team_name {
+	background-color: orange;
+	color:white;
+	text-align:center;
+	border-top-right-radius: 98%;
+	width:270px;
+	position: relative;
+	bottom:24px;
+	transition: 0.8s ease-in-out;
+}
+.text-muted {
+	display: block;
+	position:relative;
+	bottom:24px;
+	padding-left:5px;
+}
+
+.team_item:hover .team_name {
+	height: 85%;
+	border-top-right-radius: 0%;
+	background-color: #E27E2480;
+	position: absolute;
+	vertical-align: middle;
+	top:0;
+	line-height: 270px;
+	
+}
+
+.contact input, .contact textarea{
+	margin:10px 0 10px 0;
+}
+
+.touch {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
