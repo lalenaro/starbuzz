@@ -1,0 +1,46 @@
+body {
+	background-color:antiquewhite;
+}
+.container {
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
+.icecream {
+	width: 200px;
+	height: 350px;
+	background-color: hotpink;
+	border-radius: 20% 20% 0 0;
+	overflow: hidden;
+}
+.stick {
+	height:130px;
+	width: 50px;
+	background-color: burlywood;
+	border-radius: 0 0 15% 15%; 
+}
+.flavor {
+	width:450px;
+	height:430px;
+	position:relative;
+	top: -70px;
+	left: -120px;
+	background-image: linear-gradient(0deg, 
+		hotpink 0%, hotpink 25%,  
+		limegreen 25%, limegreen 50%,
+		yellow 50%, yellow 75%,
+		white 50%, white 100%);
+	transform:rotate(-45deg);
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+
+}
+@keyframes move {
+	to {
+		background-position: 0px -1000px;
+	}
+}

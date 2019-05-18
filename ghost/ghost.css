@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(53, 9, 53);
+}
+@keyframes openeyes {
+    0% {height: 50px;}
+    20% {height: 0px;}
+    50% {height: 50px;}
+    70% {height: 0px;}
+    90% {height: 50px;}
+    100% {height: 30px; }
+}
+
+.ghost-face {
+    background-color: rgb(228, 230, 225);
+    width:300px;
+    height:350px;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.ghost-eyes {
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 70px;
+}
+#eye-right, #eye-left {
+    background-color: black;
+    width: 70px;
+    height: 50px;
+    border-radius: 40%;
+    animation-name: openeyes;
+    animation-duration: 7s;
+
+}
+#eye-right {
+    margin-right: 70px;
+}
+.ghost-mouth {
+    width: 30px;
+    height: 70px;
+    background-color: black;
+    justify-content: center;
+    margin:auto;
+    border-radius: 40%;
+    animation-name: openeyes;
+    animation-duration: 7s;
+    animation-direction: alternate-reverse;
+
+}
+

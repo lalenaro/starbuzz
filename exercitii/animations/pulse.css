@@ -1,0 +1,35 @@
+:root {
+	--site-color:brown;
+}
+circle{
+	stroke: var(--site-color);
+	stroke-width:2px;
+	stroke-opacity: 1;
+	fill: var(--site-color);
+}
+svg:hover .pulse {
+	animation-name:pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	
+}
+
+.pulse{
+	fill: var(--site-color);
+	fill-opacity:0.3;
+	transform-origin:50% 50%;
+	
+}
+
+@keyframes pulse {
+	from {
+		transform: scale(0.3);
+		stroke-opacity:1;
+		stroke-width: 3px;
+	}
+	to {
+		transform: scale(3);
+		stroke-opacity:0;
+		stroke-width:0px;
+	}
+}
