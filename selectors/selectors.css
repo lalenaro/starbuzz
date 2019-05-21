@@ -1,0 +1,61 @@
+body {
+	font-family: 'Dancing Script', cursive;
+}
+p::first-letter{
+	font-size:1.5em;
+	color:brown;
+	font-weight:bold;
+	padding-left:2em;
+}
+p::first-line{
+	color:#aaa;
+	
+}
+.container {
+	display:flex;
+	
+}
+.container div {
+	width: 40px;
+	height: 40px;
+	margin:4px;
+	background-color: darkgray;
+}
+.container div:first-child, 
+.container div:last-child {
+	background-color: aquamarine;	
+}
+.container div:nth-child(5),
+		   div:nth-child(6),
+           div:nth-child(7)
+{
+	transform:rotate(45deg);
+	background-color: yellow;
+}
+.container div:nth-child(even){
+	transform: scale(0.70);
+}
+.container div[dataˆ=bar1] {
+	border: burlywood;
+	border-width:2px;
+	border-style:solid;
+}
+.another {
+	display:flex;
+
+}
+.another div {
+	width:50px;
+	height: 50px;
+	background-color: saddlebrown;
+	margin:10px;
+}
+
+.another div:hover::after{
+	content:'Here is a div:';
+	display:block;
+
+}
+
+
+
